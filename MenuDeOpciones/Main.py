@@ -41,9 +41,6 @@ class Main:
             print(f"Error: {e}")
             BuscarPalabra.buscarPalabra(ruta_archivo)
 
-    #MÉTODO PARA PASAR EL NUMERO PARA LA SUCESIÓN DE FIBONNACI
-    
-
 #ESTRUCTURA DE EJECUCCION
     
     while True:
