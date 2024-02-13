@@ -1,6 +1,4 @@
-### MENÚ DE OPCIONES ###
-- Buscar palabra dentro en un fichero de una ruta introducida
-- Mostar la cantidad introducida de números de la sucesión de Fibonacci (si se introducen 3 serán el 0, 1, 1)
-- Calculadora de número primo
-- Convertir celsius (Cº) en farenheit (Fº)
-- Salir
+### TRACKER PARA ZELDA:TOTK ###
+- Interfaz gráfica o de consola con colores (comentada)
+- Ejecutar en VSCode o vía terminal.
+- Cambiar la ruta donde se descarga el proyecto para mostrar el icono de la ventana
