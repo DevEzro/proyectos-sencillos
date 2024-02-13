@@ -1,3 +1,4 @@
+import os #Update
 import tkinter as tk
 
 def kologs(label):
@@ -18,9 +19,15 @@ def raices(label):
 
 ventana = tk.Tk()
 ventana.title("TOTK Tracker")
-#Cambiar ruta
-ventana.iconbitmap('C:\\Users\\Usuario\\Desktop\\TOTK_TRACKER\\Iconos\\totk32.ico')
 
+# Obtener la ruta del directorio actual del script
+ruta_script = os.path.dirname(os.path.abspath(__file__))
+
+# Construir la ruta del icono relativa al directorio del script
+ruta_icono = os.path.join(directorio_script, "Iconos", "totk32.ico")
+#Cambiar ruta
+#ventana.iconbitmap('C:\\Users\\Usuario\\Desktop\\TOTK_TRACKER\\Iconos\\totk32.ico')
+ventana.iconbitmap(ruta_icono)
 #--------------------------------
 
 ventana.columnconfigure(0, weight=1)
