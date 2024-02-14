@@ -1,0 +1,18 @@
+### REPO DE PROYECTOS SENCILLOS ###
+- Repo personal donde publico proyectos sencillos (o no) en varios lenguajes de programación
+- Un lenguaje por rama
+- Hasta ahora:
+  - Rama de JAVA
+    - Gestor de concesionario sencillo 
+        - Clase Coche
+        - Clase Main
+  - Rama de Python 
+    - Calculadora
+        - Buscar palabra en un fichero
+        - Ver cantidad de numeros pedido de la sucesión de Fibonacci
+        - Comprobar primo
+        - Calcular temperatura de Cº a Fº
+    - Tracker gráfico y por consola para TLOZ: Tears Of The Kingdom
+        - Kologs
+        - Santuarios
+        - Raices
