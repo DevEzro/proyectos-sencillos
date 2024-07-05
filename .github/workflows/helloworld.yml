@@ -4,7 +4,7 @@ on: #Definde los eventos que se van a desencadenar al ejecutar el workflow
       - main
 
 jobs: #define los trabajos que se van a realizar
-  print_hello: #Nombre del trabajo
+  print-hello: #Nombre del trabajo
     runs_on: ubuntu-latest #Indica el tipo de MV en la que se ejecuta el trabajo
     steps: #Define los pasos que se van a ejecutar dentro del trabajo
       - run: echo "Hello world!" #El paso que se va a ejecutar. En este caso, impresión por pantalla del mensaje "Hello world!""
