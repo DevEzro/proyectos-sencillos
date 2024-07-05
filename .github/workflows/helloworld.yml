@@ -7,4 +7,9 @@ jobs: #define los trabajos que se van a realizar
   print-hello: #Nombre del trabajo
     runs-on: ubuntu-latest #Indica el tipo de MV en la que se ejecuta el trabajo
     steps: #Define los pasos que se van a ejecutar dentro del trabajo
-      - run: echo "Hello world!" #El paso que se va a ejecutar. En este caso, impresión por pantalla del mensaje "Hello world!""
+      - run: echo "Hello world!" #El paso que se va a ejecutar. En este caso, impresión por pantalla del mensaje "Hello world!"
+  print_name:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "David Méndez"
+      - run: echo "Cierre"
