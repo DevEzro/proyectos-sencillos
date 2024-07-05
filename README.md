@@ -1,5 +1,5 @@
 ### REPO DE PROYECTOS SENCILLOS ###
-- Repo personal donde publico proyectos sencillos (o no) en varios lenguajes de programación
+- Repo personal donde publico proyectos en varios lenguajes de programación
 - Un lenguaje por rama
 - Hasta ahora:
   - Rama de JAVA
