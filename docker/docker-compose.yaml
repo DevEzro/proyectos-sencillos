@@ -1,0 +1,30 @@
+version: '3'
+services:
+  kali:
+    image: jmmedinac03/kali_pps
+    container_name: kali
+    tty: true
+    volumes:
+      - ./Docker/kali_data:/root/data
+
+  jenkins:
+    image: jenkins/jenkins:lts
+    container_name: jenkins
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./Docker/jenkins_home:/var/jenkins_home
+    environment:
+      JENKINS_USER: admin
+      JENKINS_PASS: admin
+
+  metasploit:
+    image: metasploitframework/metasploit-framework
+    container_name: metasploit
+    tty: true
+    ports:
+      - "4444:4444" 
+    volumes:
+      - ./Docker/metasploit_data:/root/data 
+    environment:
+      MSF_DATABASE: 'true'
