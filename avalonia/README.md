@@ -15,6 +15,7 @@ Descarga e instalación de los paquetes de Microsoft:
 - `sudo apt install -y dotnet-sdk-8.0`
 
 Para comprobar que se ha instalado: `dotnet --version`
+
 Comprobar los direcotrios:
 - `ls -l /usr/bin/dotnet`
 - `ls -l /usr/share/dotnet/`
