@@ -22,7 +22,7 @@ public partial class MainWindow : Window
     // Cadena a rellenar con el simbolo de la operación para más adelante
     private string operacionSeleccionada = "";
 
-    // Suma de las operaciones
+    // Suma de los números
     public void SetSuma(object sender, RoutedEventArgs e)
     {   
         // Operacion seleccionada se inicializará con la que corresponde
