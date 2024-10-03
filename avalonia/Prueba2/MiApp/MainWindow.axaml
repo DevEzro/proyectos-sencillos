@@ -1,0 +1,89 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="MiApp.MainWindow"
+        Title="MiApp">
+
+    <!-- Imagen de fondo de aplicación -->
+    <Window.Background>
+        <ImageBrush Source="avares://MiApp/assets/Backgrounds/background1.png" Stretch="UniformToFill"/>
+    </Window.Background>
+    
+    <!-- Panel orientado horizontalmente -->
+    <StackPanel Orientation="Horizontal" Margin="5">
+        <!-- Primer border para el contenido de las operaciones matemáticas -->
+        <Border Margin="5" Padding="10" BorderBrush="Black" BorderThickness="3" HorizontalAlignment="Left" VerticalAlignment="Top" CornerRadius="3" Width="500" Height="170">
+            <!-- Fondo para este border -->
+            <Border.Background>
+                <ImageBrush Source="avares://MiApp/assets/Backgrounds/background2.jpg" Stretch="UniformToFill"/>
+            </Border.Background>
+            <!-- Panel con:
+            - un título
+            - un botón de operaciones a seleccionar
+            - campos donde introducir los numeros + los símbolos controlados por el modelo
+            - botón de calcular -->
+            <StackPanel>
+                <TextBlock Margin="5" Background="#6f4d1d" Text="Operaciones sencillas (Suma, resta, multiplicación y división)" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                <Menu>
+                    <MenuItem Header="Opciones" Background="Black" Foreground="White" BorderThickness="3" CornerRadius="3">
+                        <MenuItem Header="Suma" Click="SetSuma"/>
+                        <MenuItem Header="Resta" Click="SetResta"/>
+                        <MenuItem Header="Multiplicación" Click="SetMultiplicacion"/>
+                        <MenuItem Header="División" Click="SetDivision"/>
+                    </MenuItem>
+                </Menu>
+
+                <StackPanel Name="Operaciones" Margin="5" IsVisible="True">
+                    <StackPanel Orientation="Horizontal" VerticalAlignment="Center" Margin="2">
+                        <StackPanel Margin="2">
+                            <TextBox Name="Num1TextBox" Margin="2" Width="40"/>
+                        </StackPanel>
+
+                        <TextBlock Name="SimboloOperacion" Text="?" VerticalAlignment="Center" Margin="2"/>
+
+                        <StackPanel Margin="2">
+                            <TextBox Name="Num2TextBox" Margin="2" Width="40"/>
+                        </StackPanel>
+
+                        <TextBlock Text="=" VerticalAlignment="Center" Margin="2"/>
+
+                        <StackPanel Margin="2">
+                            <TextBox Name="ResultTextBox" Margin="2" Width="250" IsReadOnly="True"/>
+                        </StackPanel>
+                    </StackPanel>
+                </StackPanel>
+                <Button Name="CalcButton" Content="Ver resultado" Click="EjecutarOperacion" Margin="5" Width="200"/>
+            </StackPanel>
+        </Border>
+        <!-- Segundo border para el contenido del logo de Kali -->
+        <Border Margin="5" Padding="10" BorderBrush="Black" BorderThickness="3" HorizontalAlignment="Left" VerticalAlignment="Top" CornerRadius="3" Width="170" Height="170">
+            <!-- Fondo para este border -->
+            <Border.Background>
+                <ImageBrush Source="avares://MiApp/assets/Images/KaliWP.jpg" Stretch="UniformToFill"/>
+            </Border.Background>
+            <!-- Panel con:
+            - un titulo
+            - una imagen (no es un background) -->
+            <StackPanel>
+                <TextBlock Text="SO: Kali Linux" Background="#5432fd" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+                <Image Source="avares://MiApp/assets/Images/kali.jpg" Width="100" Height="100" Margin="10" HorizontalAlignment="Center"/>
+            </StackPanel>
+        </Border>
+        <!-- Tercer border para el contenido del redireccionamiento a cuenta de GitHub -->
+        <Border Margin="5" Padding="10" BorderBrush="Black" BorderThickness="3" HorizontalAlignment="Left" VerticalAlignment="Top" CornerRadius="3" Width="170" Height="170"  PointerPressed="Border_PointerPressed">
+            <!-- Fondo para este border -->
+            <Border.Background>
+                <ImageBrush Source="avares://MiApp/assets/Images/yo.png" Stretch="UniformToFill"/>
+            </Border.Background>
+            <!-- Panel con:
+            - un título
+            - un título informativo para el usuario -->
+            <StackPanel>
+                <TextBlock Text="Mi GitHub" Background="#3f5a2b" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+                <TextBlock Text="Haz clic para redirigirte" FontSize="10" Background="#3f5a2b" HorizontalAlignment="Center" VerticalAlignment="Bottom"/>
+            </StackPanel>
+        </Border>
+    </StackPanel>
+</Window>

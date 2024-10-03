@@ -15,12 +15,12 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Prueba
-build_property.ProjectDir = /home/david/Documentos/proyectos-sencillos/avalonia/Prueba/
+build_property.ProjectDir = C:\Users\David\Documents\Dev\proyectos-sencillos\avalonia\Prueba\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 
-[/home/david/Documentos/proyectos-sencillos/avalonia/Prueba/App.axaml]
+[C:/Users/David/Documents/Dev/proyectos-sencillos/avalonia/Prueba/App.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
-[/home/david/Documentos/proyectos-sencillos/avalonia/Prueba/MainWindow.axaml]
+[C:/Users/David/Documents/Dev/proyectos-sencillos/avalonia/Prueba/MainWindow.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
