@@ -27,7 +27,7 @@ Instalar las plantillas:
 - `dotnet new --install Avalonia.Templates`
 
 Inicializar un proyecto de Avalonia:
-- `dotnet new --install avalonia.app - MiProyecto`
+- `dotnet new avalonia.app - MiProyecto`
 
 
 ## EJECUCCIÓN
