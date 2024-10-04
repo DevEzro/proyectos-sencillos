@@ -31,6 +31,7 @@ Inicializar un proyecto de Avalonia:
 
 
 ## EJECUCCIÓN
+- En un IDE que compile y corra C# (desarrollado con VSCode y la extensión de Avalonia) como VSCode o Microsoft Visual Stdio
 - Para ejecutar las pruebas: `dotnet clean`, `dotnet build` y `dotnet run`. O bien se pueden usar los ficheros run.sh (Linux) y run.bat (Windows) para ejecutar los tres a la vez.
 
 ## ERRORES (Linux)
