@@ -32,3 +32,7 @@ Inicializar un proyecto de Avalonia:
 
 ## EJECUCCIÓN
 - Para ejecutar las pruebas: `dotnet clean`, `dotnet build` y `dotnet run`. O bien se pueden usar los ficheros run.sh (Linux) y run.bat (Windows) para ejecutar los tres a la vez.
+
+## ERRORES (Linux)
+- Puede pasar que, al pulsar sobre la imagen para la redirección a GitHub la consola muestre este error: `Error: Failed to open Wayland display, fallback to X11. WAYLAND_DISPLAY='wayland-0' DISPLAY=':0'
+- A pesar de que funciona, si es un error que no quieres ver en la consola, modifica el fichero `/etc/gdm3/custom.conf`, desmutea la linea `#WaylandEnable=false` y reinicia el equipo.
