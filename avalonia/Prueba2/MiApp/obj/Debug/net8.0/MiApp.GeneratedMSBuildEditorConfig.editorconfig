@@ -15,12 +15,12 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = MiApp
-build_property.ProjectDir = /home/david/Documentos/Pruebas Avalonia/MiApp/
+build_property.ProjectDir = C:\Users\David\Documents\Dev\MisCosas\proyectos-sencillos\avalonia\Prueba2\MiApp\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 
-[/home/david/Documentos/Pruebas Avalonia/MiApp/App.axaml]
+[C:/Users/David/Documents/Dev/MisCosas/proyectos-sencillos/avalonia/Prueba2/MiApp/App.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
-[/home/david/Documentos/Pruebas Avalonia/MiApp/MainWindow.axaml]
+[C:/Users/David/Documents/Dev/MisCosas/proyectos-sencillos/avalonia/Prueba2/MiApp/MainWindow.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml

@@ -1472,19 +1472,19 @@
     ]
   },
   "packageFolders": {
-    "/home/david/.nuget/packages/": {}
+    "C:\\Users\\David\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/david/Documentos/Pruebas Avalonia/MiApp/MiApp.csproj",
+      "projectUniqueName": "C:\\Users\\David\\Documents\\Dev\\MisCosas\\proyectos-sencillos\\avalonia\\Prueba2\\MiApp\\MiApp.csproj",
       "projectName": "MiApp",
-      "projectPath": "/home/david/Documentos/Pruebas Avalonia/MiApp/MiApp.csproj",
-      "packagesPath": "/home/david/.nuget/packages/",
-      "outputPath": "/home/david/Documentos/Pruebas Avalonia/MiApp/obj/",
+      "projectPath": "C:\\Users\\David\\Documents\\Dev\\MisCosas\\proyectos-sencillos\\avalonia\\Prueba2\\MiApp\\MiApp.csproj",
+      "packagesPath": "C:\\Users\\David\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\David\\Documents\\Dev\\MisCosas\\proyectos-sencillos\\avalonia\\Prueba2\\MiApp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/david/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\David\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -1502,6 +1502,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -1545,7 +1550,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.108/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.402/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

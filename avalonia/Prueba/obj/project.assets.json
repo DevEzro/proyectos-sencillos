@@ -1477,11 +1477,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\David\\Documents\\Dev\\proyectos-sencillos\\avalonia\\Prueba\\Prueba.csproj",
+      "projectUniqueName": "C:\\Users\\David\\Documents\\Dev\\MisCosas\\proyectos-sencillos\\avalonia\\Prueba\\Prueba.csproj",
       "projectName": "Prueba",
-      "projectPath": "C:\\Users\\David\\Documents\\Dev\\proyectos-sencillos\\avalonia\\Prueba\\Prueba.csproj",
+      "projectPath": "C:\\Users\\David\\Documents\\Dev\\MisCosas\\proyectos-sencillos\\avalonia\\Prueba\\Prueba.csproj",
       "packagesPath": "C:\\Users\\David\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\David\\Documents\\Dev\\proyectos-sencillos\\avalonia\\Prueba\\obj\\",
+      "outputPath": "C:\\Users\\David\\Documents\\Dev\\MisCosas\\proyectos-sencillos\\avalonia\\Prueba\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\David\\AppData\\Roaming\\NuGet\\NuGet.Config"
