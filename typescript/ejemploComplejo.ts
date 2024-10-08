@@ -1,60 +1,60 @@
-// Definimos la interfaz para representar una tarea
+// Interfaz para tarea
 interface Tarea {
     id: number;
     descripcion: string;
     completada: boolean;
 }
 
-// Clase para manejar la lista de tareas
+// Gestión de las tareas
 class ListaDeTareas {
-private tareas: Tarea[] = [];
+    private tareas: Tarea[] = [];
 
-// Método para agregar una nueva tarea
-agregarTarea(descripcion: string): Tarea {
-    const nuevaTarea: Tarea = {
-        id: this.tareas.length + 1,
-        descripcion: descripcion,
-        completada: false,
-    };
-    this.tareas.push(nuevaTarea);
-    return nuevaTarea;
-}
-
-// Método para completar una tarea por su ID
-completarTarea(id: number): boolean {
-    const tarea = this.tareas.find(t => t.id === id);
-    if (tarea) {
-        tarea.completada = true;
-        return true;
+    // Agrega tarea
+    agregarTarea(descripcion: string): Tarea {
+        const nuevaTarea: Tarea = {
+            id: this.tareas.length + 1,
+            descripcion: descripcion,
+            completada: false,
+        };
+        this.tareas.push(nuevaTarea);
+        return nuevaTarea;
     }
-    return false;
-}
 
-// Método para eliminar una tarea por su ID
-eliminarTarea(id: number): boolean {
-    const indice = this.tareas.findIndex(t => t.id === id);
-    if (indice !== -1) {
-        this.tareas.splice(indice, 1);
-        return true;
+    // Termina tarea
+    completarTarea(id: number): boolean {
+        const tarea = this.tareas.find(t => t.id === id);
+        if (tarea) {
+            tarea.completada = true;
+            return true;
+        }
+        return false;
     }
-    return false;
-}
 
-// Método para listar todas las tareas
-listarTareas(): void {
-    console.log("Lista de tareas:");
-    this.tareas.forEach(tarea => {
-        console.log(`${tarea.id}. ${tarea.descripcion} - ${tarea.completada ? "Completada" : "Pendiente"}`);
-    });
+    // Elimina tarea
+    eliminarTarea(id: number): boolean {
+        const indice = this.tareas.findIndex(t => t.id === id);
+        if (indice !== -1) {
+            this.tareas.splice(indice, 1);
+            return true;
+        }
+        return false;
+    }
+
+    // lista tareas
+    listarTareas(): void {
+        console.log("Lista de tareas:");
+        this.tareas.forEach(tarea => {
+            console.log(`${tarea.id}. ${tarea.descripcion} - ${tarea.completada ? "Completada" : "Pendiente"}`);
+        });
     }
 }
 
-// Simula un delay para operaciones asíncronas
+// Pausa
 function esperar(ms: number) {
     return new Promise(resolve => setTimeout(resolve, ms));
 }
 
-// Función asíncrona para manejar las tareas
+// Manejo de tareas asíncronas
 async function manejarTareas() {
     const listaDeTareas = new ListaDeTareas();
 
@@ -67,21 +67,21 @@ async function manejarTareas() {
     listaDeTareas.listarTareas();
     await esperar(1000);
 
-    // Completar una tarea
+    // Completar tarea
     console.log("\nCompletando la tarea con ID 1...");
     listaDeTareas.completarTarea(1);
     await esperar(1000);
 
-    // Listar tareas actualizadas
+    // Listar tareas
     listaDeTareas.listarTareas();
     await esperar(1000);
 
-    // Eliminar una tarea
+    // Eliminar tarea
     console.log("\nEliminando la tarea con ID 2...");
     listaDeTareas.eliminarTarea(2);
     await esperar(1000);
 
-    // Listar tareas después de eliminar una
+    // Listar tareas
     listaDeTareas.listarTareas();
 }
 
