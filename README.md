@@ -2,6 +2,14 @@
 - Repo personal donde publico proyectos en varios lenguajes de programación
 - Un lenguaje por rama
 - Hasta ahora:
+  - Avalonia
+    - Dos proyectos, uno sencillo y otro algo más complejo
+    - Para el desarrollo de aplicaciones MVVM(Modelo, vista y vista-modelo)
+  - Docker
+    - Un fichero yml con tres imágenes para trastear con ellas:
+      - Kali Linux
+      - Jenkins
+      -  
   - JAVA
     - Gestor de concesionario sencillo 
         - Clase Coche
