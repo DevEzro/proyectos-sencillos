@@ -1,7 +1,5 @@
-### REPO DE PROYECTOS SENCILLOS ###
+### REPO DE PROYECTOS SENCILLOS (se va actualizando)###
 - Repo personal donde publico proyectos en varios lenguajes de programación
-- Un lenguaje por rama
-- Hasta ahora:
   
   - Avalonia
     - Dos proyectos, uno sencillo y otro algo más complejo
