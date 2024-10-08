@@ -1,4 +1,4 @@
-### REPO DE PROYECTOS SENCILLOS (se va actualizando)###
+### REPO DE PROYECTOS SENCILLOS (se va actualizando) ###
 - Repo personal donde publico proyectos en varios lenguajes de programación
   
   - Avalonia
