@@ -9,7 +9,7 @@
     - Un fichero yml con tres imágenes para trastear con ellas:
       - Kali Linux
       - Jenkins
-      -  
+      - Metasploit
   - JAVA
     - Gestor de concesionario sencillo 
         - Clase Coche
