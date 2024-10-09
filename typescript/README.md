@@ -4,6 +4,5 @@
 - npx tsc --init
 
 # COMPILACIÓN Y EJECUCCIÓN
-- npx tsc index.ts
-- node index.js
-
+- npx tsc fichero.ts -> Genera un fichero `.js`
+- node fichero.js
