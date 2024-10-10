@@ -1,4 +1,4 @@
-# 📚 REPO DE PROYECTOS SENCILLOS (se va actualizando) #
+# 📚 PROYECTOS SENCILLOS (se va actualizando) #
 - Repo personal donde publico proyectos de varios framewlorks, herramientas y lenguajes de programación
   
   - ## 📟 Avalonia ##
