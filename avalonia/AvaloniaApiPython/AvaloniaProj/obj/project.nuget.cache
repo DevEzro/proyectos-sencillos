@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "3Xrr7jJGyEQ=",
+  "dgSpecHash": "FLjgoc0h/TM=",
   "success": true,
-  "projectFilePath": "C:\\Users\\David\\Documents\\Dev\\AIRInstitute\\AvaloniaApiPython\\AvaloniaProj\\AvaloniaProj.csproj",
+  "projectFilePath": "C:\\Users\\David\\Documents\\Dev\\MisCosas\\proyectos-sencillos\\avalonia\\AvaloniaApiPython\\AvaloniaProj\\AvaloniaProj.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\David\\.nuget\\packages\\avalonia\\11.1.0\\avalonia.11.1.0.nupkg.sha512",
     "C:\\Users\\David\\.nuget\\packages\\avalonia.angle.windows.natives\\2.1.22045.20230930\\avalonia.angle.windows.natives.2.1.22045.20230930.nupkg.sha512",

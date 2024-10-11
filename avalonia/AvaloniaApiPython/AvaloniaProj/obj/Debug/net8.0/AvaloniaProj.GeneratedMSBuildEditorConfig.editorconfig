@@ -15,12 +15,12 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = AvaloniaProj
-build_property.ProjectDir = C:\Users\David\Documents\Dev\AIRInstitute\AvaloniaApiPython\AvaloniaProj\
+build_property.ProjectDir = C:\Users\David\Documents\Dev\MisCosas\proyectos-sencillos\avalonia\AvaloniaApiPython\AvaloniaProj\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 
-[C:/Users/David/Documents/Dev/AIRInstitute/AvaloniaApiPython/AvaloniaProj/App.axaml]
+[C:/Users/David/Documents/Dev/MisCosas/proyectos-sencillos/avalonia/AvaloniaApiPython/AvaloniaProj/App.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
-[C:/Users/David/Documents/Dev/AIRInstitute/AvaloniaApiPython/AvaloniaProj/MainWindow.axaml]
+[C:/Users/David/Documents/Dev/MisCosas/proyectos-sencillos/avalonia/AvaloniaApiPython/AvaloniaProj/MainWindow.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\David\\Documents\\Dev\\AIRInstitute\\AvaloniaApiPython\\AvaloniaProj\\AvaloniaProj.csproj": {}
+    "C:\\Users\\David\\Documents\\Dev\\MisCosas\\proyectos-sencillos\\avalonia\\AvaloniaApiPython\\AvaloniaProj\\AvaloniaProj.csproj": {}
   },
   "projects": {
-    "C:\\Users\\David\\Documents\\Dev\\AIRInstitute\\AvaloniaApiPython\\AvaloniaProj\\AvaloniaProj.csproj": {
+    "C:\\Users\\David\\Documents\\Dev\\MisCosas\\proyectos-sencillos\\avalonia\\AvaloniaApiPython\\AvaloniaProj\\AvaloniaProj.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\David\\Documents\\Dev\\AIRInstitute\\AvaloniaApiPython\\AvaloniaProj\\AvaloniaProj.csproj",
+        "projectUniqueName": "C:\\Users\\David\\Documents\\Dev\\MisCosas\\proyectos-sencillos\\avalonia\\AvaloniaApiPython\\AvaloniaProj\\AvaloniaProj.csproj",
         "projectName": "AvaloniaProj",
-        "projectPath": "C:\\Users\\David\\Documents\\Dev\\AIRInstitute\\AvaloniaApiPython\\AvaloniaProj\\AvaloniaProj.csproj",
+        "projectPath": "C:\\Users\\David\\Documents\\Dev\\MisCosas\\proyectos-sencillos\\avalonia\\AvaloniaApiPython\\AvaloniaProj\\AvaloniaProj.csproj",
         "packagesPath": "C:\\Users\\David\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\David\\Documents\\Dev\\AIRInstitute\\AvaloniaApiPython\\AvaloniaProj\\obj\\",
+        "outputPath": "C:\\Users\\David\\Documents\\Dev\\MisCosas\\proyectos-sencillos\\avalonia\\AvaloniaApiPython\\AvaloniaProj\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\David\\AppData\\Roaming\\NuGet\\NuGet.Config"
