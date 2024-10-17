@@ -1,6 +1,6 @@
 # PROYECTO DE AVALONIA
 
-## SET UP
+## ⚙ SET UP
 
 Actualización e instalación de los certificados:
 - `sudo apt update`
