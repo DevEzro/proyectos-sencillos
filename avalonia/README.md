@@ -17,17 +17,16 @@ Actualización e instalación de .NET:
 Comprobar que se ha instalado correctamente y las rutas:
 - `dotnet --version`
 - `ls -l /usr/bin/dotnet`
-- `ls -l /usr/share/dotnet/`
 
 Dar permisos:
-- `sudo chmod -R 755 /usr/share/dotnet/`
+- `sudo chmod -R 755 /usr/bin/dotnet/`
 - `source ~/.bashrc`
 
 Instalar las plantillas:
 - `dotnet new --install Avalonia.Templates`
 
 Inicializar un proyecto de Avalonia:
-- `dotnet new avalonia.app - MiProyecto`
+- `dotnet new avalonia.app -n MiProyecto`
 
 
 ## ▶ EJECUCCIÓN
