@@ -1,9 +1,11 @@
 # 🤖 DISCORD BOT
->[!NOTE] Esto es solo un pequeño ejemplo de como funciona un bot en discord.
+>[!NOTE]
+Esto es solo un pequeño ejemplo de como funciona un bot en discord.
 Con un poco de investigación y programación se puede llegar a realizar varias funciones que el paquete de Discord ofrece
 
 ## ✨ Como crear y configurar
->[!TIP] Recomendable crear un repositorio de GIT
+>[!TIP]
+Recomendable crear un repositorio de GIT
 
 ## 📚 Requisitos
   - Cuenta de Discord y un servidor
