@@ -4,7 +4,11 @@
   - ## 📟 Avalonia ##
     - Dos proyectos, uno sencillo y otro algo más complejo
     - Para el desarrollo de aplicaciones MVVM(Modelo, vista y vista-modelo)
-      
+
+  - ## 🤖 Discord Bot ##
+    - Ejemplo básico de las funciones de un bot de Discord
+    - Útil para la gestión de un servidor y sus componentes
+
   - ## 🐳 Docker ##
     - Un fichero yml con tres imágenes para trastear con ellas:
       - Kali Linux
