@@ -1,9 +1,10 @@
 # 🤖 DISCORD BOT
->[!NOTE] Esto es solo un pequeño ejemplo de como funciona un bot en discord.
+>[!NOTE]
+Esto es solo un pequeño ejemplo de como funciona un bot en discord.
 Con un poco de investigación y programación se puede llegar a realizar varias funciones que el paquete de Discord ofrece
 
 ## ✨ Como crear y configurar
->[!TIP] 
+>[!TIP]
 Recomendable crear un repositorio de GIT
 
 ## 📚 Requisitos
@@ -16,7 +17,7 @@ Recomendable crear un repositorio de GIT
 - Pulsar en "New Application" y dar un nombre al Bot
 - En el dashboard, en el menú de la izda., acceder a `OAuth2`:
   - En `OAuth2 URL Generator`, en el panel `Scopes`, marcar la casilla `bot`.
-  - Se habilita debajo otro panel similar, `Bot Permissions`, donde se marcan las casillas `Send Messages` y `Read Message History`
+  - Se habilita debajo otro panel similar, `Text Permissions`, donde se marcan las casillas `Send Messages` y `Read Message History`
 
 ### 2️⃣ Invitar al bot al servidor
 - Copiar el enlace generado al final de la página, en `Generated URL` y pegar en la barra de URLs para invitar al bot a nuestro servidor
